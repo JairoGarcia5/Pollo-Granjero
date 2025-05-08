@@ -11,7 +11,7 @@ body{
 }
 /*computadora*/
 .barras{display: none;}
-.desplegable{background: #AA8E39;}
+.desplegable{background: ##2E4172;}
 ul{ display: flex;
     flex-direction: row;
 }
@@ -26,13 +26,13 @@ ul li a{
     font-size: 1.1rem;
 }
 nav ul li:hover{
-    background: #764F00;
+    background: #8192B7;
 } 
 /* tablet*/
 @media (max-width: 850px){
 
 .barras{
-    background-color: #AA8E39 ;
+    background-color: #2E4172 ;
     display: block;
 }
 .desplegable{
@@ -58,7 +58,7 @@ a{
 }
 .boton_menu{
     background-image: url('icon.svg');
-    background-color: #AA8E39;
+    background-color: #2E4172;
     background-repeat: no-repeat;
     height: 30px;
     width: 30px;
@@ -81,7 +81,7 @@ button{
 /*con esta clase cambio las barras por una x*/
 .colocar_x{
     background-image: url('x.png');
-    background-color: #AA8E39;
+    background-color: #2E4172;
     background-repeat: no-repeat;
     height: 30px;
     width: 30px;
